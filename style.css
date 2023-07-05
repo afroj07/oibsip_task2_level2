@@ -1,0 +1,150 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,400italic,600italic,700,700italic,800);
+
+.list-item {
+  padding: 30px;
+}
+.jumbotron {
+  font-size: 20px;
+  top: 1000px;
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #00001a;
+  color: white;
+}
+.thumbnail {
+  background-color: #00001a;
+  border: none;
+  padding-bottom: 20px;
+}
+h1 {
+  font-size: 60px;
+  font-weight: 750;
+}
+h2 {
+  font-size: 40px;
+}
+.container {
+  border: 5px solid lightgray;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  perspective: 1.5px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+div {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(9, 16, 152, 0.5)50%), url(https://imgnew.outlookindia.com/uploadimage/library/16_9/16_9_5/IMAGE_1646968553.webp);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#group1 {
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+}
+.content-title {
+  font-size: 50px;
+  font-weight: 600;
+  padding-bottom: 30px;
+  color: white;
+}
+.contenttitlesmall {
+  padding-left: 20px;
+  font-size: 20px;
+  padding-bottom: 10px;
+
+  color: white;
+}
+.content-head {
+  font-family: inherit;
+  color: #fff;
+  position: absolute;
+  right: 50px;
+  top: 250px;
+}
+
+blockquote {
+  width: 100%;
+  perspective: 2px;
+  margin-bottom: 40px;
+
+  font-size: 30px;
+  color: grey;
+  background-color: #00001a;
+}
+
+#para {
+  font-size: 15px;
+  color: black;
+}
+
+.foreground {
+  position: absolute;
+  top: 500px;
+  height: 100%;
+  width: 100%;
+  padding-top: 0px;
+  background-color: #00001a;
+}
+
+.header {
+  z-index: 1;
+}
+
+img {
+  border-radius: 30px;
+  height: 350px;
+  width: 350px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  display: block;
+  margin: auto;
+  -webkit-filter: drop-shadow(0px 0px 5px #111);
+  filter: drop-shadow(5px 5px 5px #000);
+}
+img:hover{
+ -webkit-transform:scaleX(-1);
+  transform:scaleX(-1);
+  
+}
+ol {
+  float: left;
+  display: block;
+  font-size: 20px;
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #00001a;
+  color: white;
+}
+
+.background {
+  border: 1px solid lightgray;
+  height: 600px;
+  width: 100%;
+  position: absolute;
+  top: calc(250px - 50vh);
+  background-image: url("https://akm-img-a-in.tosshub.com/indiatoday/images/story/202301/rocket-sixteen_nine.jpg?VersionId=zGENeVX30Jc.YwdMlOiYGEKoRc5NO2D8&size=690:388/");
+  padding-top: 100px;
+  background-size: cover;
+
+  transform: translateZ(-1px) scale(2);
+}
+#bkg {
+  display: block;
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #00001a;
+}
+
